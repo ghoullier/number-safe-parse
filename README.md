@@ -1,20 +1,20 @@
-# bun-typescript-template
+# number-safe-parse
 
-Provide a modern and ready to use template to setup a typescript project
+[Credit](https://twitter.com/buildsghost/status/1766273406608294298)
+
+A safer way to parse string to number
 
 > This Project rely on [bun](https://bun.sh) toolchain
 
-## Getting Started
+## How to use it?
 
-## GitHub Action Configuration
+```ts
+import { numberSafeParse } from "@ghoullier/number-safe-parse"
 
-Configure `${{secrets.DEPENDABOT_AUTOMERGE_TOKEN}}`
+const parsed = numberSafeParse('42')
 
-Create a [fine-grained personal access tokens](https://github.com/settings/personal-access-tokens/new) with permissions below ⬇️
-
-✅ **Read** access to metadata
-
-✅ **Read** and **Write** access to code and pull requests
+parsed === 42
+```
 
 ## Install project
 
