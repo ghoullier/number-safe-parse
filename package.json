@@ -1,0 +1,63 @@
+{
+  "name": "@ghoullier/bun-typescript-template",
+  "description": "Provide a modern and ready to use template to setup a typescript project",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build:lib": "bun build --minify --outdir=dist src/index.ts",
+    "build:types": "tsc -p tsconfig.build.json",
+    "build": "bun build:lib && bun build:types",
+    "lint": "npm run lint:lib && npm run lint:exports && npm run lint:package",
+    "lint:lib": "eslint --ext .ts src",
+    "lint:exports": "attw --pack . --ignore-rules no-resolution cjs-resolves-to-esm",
+    "lint:package": "publint ."
+  },
+  "files": [
+    "dist",
+    "package.json"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "devDependencies": {
+    "@arethetypeswrong/cli": "0.15.0",
+    "@tsconfig/strictest": "2.0.3",
+    "@types/bun": "^1.0.5",
+    "@typescript-eslint/eslint-plugin": "7.1.1",
+    "@typescript-eslint/parser": "7.1.1",
+    "bun-types": "1.0.30",
+    "eslint": "8.57.0",
+    "publint": "0.2.7",
+    "typescript": "5.4.2"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "eslintConfig": {
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/strict-type-checked",
+      "plugin:@typescript-eslint/stylistic-type-checked"
+    ],
+    "plugins": [
+      "@typescript-eslint"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+      "project": true,
+      "tsconfigRootDir": "."
+    },
+    "root": true,
+    "rules": {
+      "@typescript-eslint/no-empty-interface": "off",
+      "@typescript-eslint/explicit-function-return-type": [
+        "error"
+      ]
+    }
+  }
+}
