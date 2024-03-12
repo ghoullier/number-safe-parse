@@ -1,6 +1,0 @@
-# Default ownership
-* @ghoullier
-
-# Declare @github-actions ownership on dependency files
-/package.json @github-actions
-/bun.lockb @github-actions
