@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.2](https://github.com/ghoullier/number-safe-parse/compare/v1.0.1...v1.0.2) (2024-03-18)
+
+
+### Miscellaneous
+
+* **deps-dev:** bump bun-types from 1.0.30 to 1.0.31 ([#9](https://github.com/ghoullier/number-safe-parse/issues/9)) ([8b0ba96](https://github.com/ghoullier/number-safe-parse/commit/8b0ba96197fa9c59a417ad0aff6b476c21c47da8))
+* **deps-dev:** bump bun-types from 1.0.31 to 1.0.33 ([#11](https://github.com/ghoullier/number-safe-parse/issues/11)) ([82b4d1e](https://github.com/ghoullier/number-safe-parse/commit/82b4d1e61a40ce75e55da0cbeb9269c233a3bd44))
+
 ## [1.0.1](https://github.com/ghoullier/number-safe-parse/compare/v1.0.0...v1.0.1) (2024-03-12)
 
 
