@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.0.3](https://github.com/ghoullier/number-safe-parse/compare/v1.0.2...v1.0.3) (2024-03-21)
+
+
+### Miscellaneous
+
+* **deps-dev:** bump @arethetypeswrong/cli from 0.15.1 to 0.15.2 ([#13](https://github.com/ghoullier/number-safe-parse/issues/13)) ([ad0fb53](https://github.com/ghoullier/number-safe-parse/commit/ad0fb5352d2bc77fe393d2ff7eb2ebff31bdfa10))
+* **deps-dev:** bump the eslint group with 2 updates ([#12](https://github.com/ghoullier/number-safe-parse/issues/12)) ([4d8a55d](https://github.com/ghoullier/number-safe-parse/commit/4d8a55d014c4946a1a03e2d511031f9a79d5564a))
+* **deps-dev:** bump typescript from 5.4.2 to 5.4.3 ([#15](https://github.com/ghoullier/number-safe-parse/issues/15)) ([80a926a](https://github.com/ghoullier/number-safe-parse/commit/80a926a67986b15dbbde610bfc5e4357dc69f4d8))
+
 ## [1.0.2](https://github.com/ghoullier/number-safe-parse/compare/v1.0.1...v1.0.2) (2024-03-18)
 
 
