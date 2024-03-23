@@ -3,7 +3,7 @@ on: pull_request_target
 name: Dependabot
 
 concurrency:
-  group: ${{ github.ref }}
+  group: dependabot--${{ github.ref }}
   cancel-in-progress: true
 
 permissions:
