@@ -53,7 +53,7 @@ jobs:
           ref: ${{ github.event.pull_request.head.ref }}
       - name: Dependabot metadata
         id: metadata
-        uses: dependabot/fetch-metadata@v1
+        uses: dependabot/fetch-metadata@v2
       - name: Approve a PR
         if: ${{contains(fromJSON('["version-update:semver-patch", "version-update:semver-minor"]'), steps.metadata.outputs.update-type)}}
         run: gh pr review --approve "$PR_URL" -b "**Automatically approving** pull request because **it includes a minor/patch update**"
