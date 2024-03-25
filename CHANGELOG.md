@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.0.4](https://github.com/ghoullier/number-safe-parse/compare/v1.0.3...v1.0.4) (2024-03-25)
+
+
+### Miscellaneous
+
+* add gh actions logs ([#19](https://github.com/ghoullier/number-safe-parse/issues/19)) ([e62e0f3](https://github.com/ghoullier/number-safe-parse/commit/e62e0f37d1451bf70459ba1efe022e63d109a096))
+* bump to `dependabot/fetch-metadata@v2` ([#18](https://github.com/ghoullier/number-safe-parse/issues/18)) ([a57aeaa](https://github.com/ghoullier/number-safe-parse/commit/a57aeaa63b0a4cb95555f2d4b6fea636286ce05d))
+* **deps-dev:** bump @tsconfig/strictest from 2.0.3 to 2.0.4 ([#21](https://github.com/ghoullier/number-safe-parse/issues/21)) ([3ffd89c](https://github.com/ghoullier/number-safe-parse/commit/3ffd89c740c7843e2fc798f0e1d2b43a6490870f))
+* **deps-dev:** bump bun-types from 1.0.33 to 1.0.35 ([#22](https://github.com/ghoullier/number-safe-parse/issues/22)) ([4f0c6da](https://github.com/ghoullier/number-safe-parse/commit/4f0c6dae273bd56661b4f7b184698f627410166a))
+* enable release please automerge ([#16](https://github.com/ghoullier/number-safe-parse/issues/16)) ([9c229e2](https://github.com/ghoullier/number-safe-parse/commit/9c229e2706a3db72a041bb4e582dc4d8c470768b))
+* update release-please gh actions triggers ([#20](https://github.com/ghoullier/number-safe-parse/issues/20)) ([b9207fa](https://github.com/ghoullier/number-safe-parse/commit/b9207fa20b45ee2e994b6257e5695d3d1ced68db))
+
 ## [1.0.3](https://github.com/ghoullier/number-safe-parse/compare/v1.0.2...v1.0.3) (2024-03-21)
 
 
