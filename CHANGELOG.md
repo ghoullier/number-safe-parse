@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.5](https://github.com/ghoullier/number-safe-parse/compare/v1.0.4...v1.0.5) (2024-03-27)
+
+
+### Miscellaneous
+
+* **deps-dev:** bump @tsconfig/strictest from 2.0.4 to 2.0.5 ([#25](https://github.com/ghoullier/number-safe-parse/issues/25)) ([7c0e712](https://github.com/ghoullier/number-safe-parse/commit/7c0e7129c37010ec94913e8197d700a865512d60))
+* **deps-dev:** bump the eslint group with 2 updates ([#23](https://github.com/ghoullier/number-safe-parse/issues/23)) ([fab298f](https://github.com/ghoullier/number-safe-parse/commit/fab298f4c8e6e2e3f2486764b5ce1ec88f7b571b))
+
 ## [1.0.4](https://github.com/ghoullier/number-safe-parse/compare/v1.0.3...v1.0.4) (2024-03-25)
 
 
