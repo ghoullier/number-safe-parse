@@ -6,12 +6,12 @@
  * In short, only parses token sequences that are *exactly* valid JS numbers
  */
 export function numberSafeParse(input: string): number | null {
-    if (input.trim() === '') {
-        return null
-    }
-    const parsed = Number(input)
-    if (!Number.isFinite(parsed)) {
-        return null
-    }
-    return parsed
+  if (input.trim() === "") {
+    return null;
+  }
+  const parsed = Number(input);
+  if (!Number.isFinite(parsed)) {
+    return null;
+  }
+  return parsed;
 }
