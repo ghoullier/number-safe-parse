@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.1.1](https://github.com/ghoullier/number-safe-parse/compare/v1.1.0...v1.1.1) (2024-08-08)
+
+
+### Miscellaneous
+
+* **deps-dev:** bump @arethetypeswrong/cli from 0.15.3 to 0.15.4 ([#74](https://github.com/ghoullier/number-safe-parse/issues/74)) ([c9c28ea](https://github.com/ghoullier/number-safe-parse/commit/c9c28ea2b3ad2883e9c04d715ac2723bbd9586bf))
+* **deps-dev:** bump bun-types from 1.1.20 to 1.1.21 ([#72](https://github.com/ghoullier/number-safe-parse/issues/72)) ([bf6ac11](https://github.com/ghoullier/number-safe-parse/commit/bf6ac11ad11455be6c55ad3cd27befa5fa2bd2e4))
+* **deps-dev:** bump publint from 0.2.8 to 0.2.9 ([#69](https://github.com/ghoullier/number-safe-parse/issues/69)) ([ce2c552](https://github.com/ghoullier/number-safe-parse/commit/ce2c55297d510eecb81f1310b86fd9f463a124cd))
+* **deps-dev:** bump typescript from 5.5.3 to 5.5.4 ([#71](https://github.com/ghoullier/number-safe-parse/issues/71)) ([c646187](https://github.com/ghoullier/number-safe-parse/commit/c646187cb71611f54e6afb7814ef04767c2fb219))
+
 ## [1.1.0](https://github.com/ghoullier/number-safe-parse/compare/v1.0.4...v1.1.0) (2024-07-16)
 
 
