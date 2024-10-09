@@ -1,5 +1,44 @@
 # Changelog
 
+## [1.2.0](https://github.com/ghoullier/number-safe-parse/compare/v1.1.0...v1.2.0) (2024-10-09)
+
+
+### Features
+
+* add license field ([#84](https://github.com/ghoullier/number-safe-parse/issues/84)) ([8421f13](https://github.com/ghoullier/number-safe-parse/commit/8421f13e6557b089741489671234a17ea8232a6a))
+
+
+### Miscellaneous
+
+* **ci:** migrate `google-github-actions/release-please-action` to `googleapis/release-please-action` ([#75](https://github.com/ghoullier/number-safe-parse/issues/75)) ([af10263](https://github.com/ghoullier/number-safe-parse/commit/af102639c8ab1df75f4ca79ff4a1ab50e55a58b9))
+* **deps-dev:** bump @arethetypeswrong/cli from 0.15.3 to 0.15.4 ([#74](https://github.com/ghoullier/number-safe-parse/issues/74)) ([c9c28ea](https://github.com/ghoullier/number-safe-parse/commit/c9c28ea2b3ad2883e9c04d715ac2723bbd9586bf))
+* **deps-dev:** bump @arethetypeswrong/cli from 0.15.4 to 0.16.1 ([#83](https://github.com/ghoullier/number-safe-parse/issues/83)) ([8a6721f](https://github.com/ghoullier/number-safe-parse/commit/8a6721f89b44043d2fef30b190edbb28bf02b18f))
+* **deps-dev:** bump @arethetypeswrong/cli from 0.16.1 to 0.16.2 ([#86](https://github.com/ghoullier/number-safe-parse/issues/86)) ([cdd7811](https://github.com/ghoullier/number-safe-parse/commit/cdd7811e8924a00a990ce0f7e59c8c391e5149d2))
+* **deps-dev:** bump @arethetypeswrong/cli from 0.16.2 to 0.16.4 ([#91](https://github.com/ghoullier/number-safe-parse/issues/91)) ([8fcc7e4](https://github.com/ghoullier/number-safe-parse/commit/8fcc7e4360495fb9774b389ed16f37ff6e5aa86f))
+* **deps-dev:** bump @biomejs/biome from 1.8.3 to 1.9.0 ([#88](https://github.com/ghoullier/number-safe-parse/issues/88)) ([6d52414](https://github.com/ghoullier/number-safe-parse/commit/6d52414c566a7ef3d9cb2a7a1d0066b7767ca880))
+* **deps-dev:** bump @biomejs/biome from 1.9.0 to 1.9.1 ([#89](https://github.com/ghoullier/number-safe-parse/issues/89)) ([d7749e8](https://github.com/ghoullier/number-safe-parse/commit/d7749e819b788dedf4f0d1b9e050a0ef56b57959))
+* **deps-dev:** bump @biomejs/biome from 1.9.1 to 1.9.2 ([#93](https://github.com/ghoullier/number-safe-parse/issues/93)) ([be2c81d](https://github.com/ghoullier/number-safe-parse/commit/be2c81d6f9d5548af9f9c5297d5c809830bb7e29))
+* **deps-dev:** bump @biomejs/biome from 1.9.2 to 1.9.3 ([#96](https://github.com/ghoullier/number-safe-parse/issues/96)) ([c19f389](https://github.com/ghoullier/number-safe-parse/commit/c19f389ef9123619912f47d2cacb732021aa64ac))
+* **deps-dev:** bump @types/bun from 1.1.10 to 1.1.11 ([#99](https://github.com/ghoullier/number-safe-parse/issues/99)) ([1e6b87d](https://github.com/ghoullier/number-safe-parse/commit/1e6b87dd19a5ec395f7e2d6bede1e5b8c504273a))
+* **deps-dev:** bump @types/bun from 1.1.6 to 1.1.8 ([#80](https://github.com/ghoullier/number-safe-parse/issues/80)) ([5d4d04b](https://github.com/ghoullier/number-safe-parse/commit/5d4d04b0bdbde1159b05a0b948ec4f03b8e6bc0b))
+* **deps-dev:** bump @types/bun from 1.1.8 to 1.1.9 ([#85](https://github.com/ghoullier/number-safe-parse/issues/85)) ([15d1aa6](https://github.com/ghoullier/number-safe-parse/commit/15d1aa64c58576c062a3a825485298b3176268d2))
+* **deps-dev:** bump @types/bun from 1.1.9 to 1.1.10 ([#94](https://github.com/ghoullier/number-safe-parse/issues/94)) ([15eb155](https://github.com/ghoullier/number-safe-parse/commit/15eb155050927d940049a81828aa9d0130c9a374))
+* **deps-dev:** bump bun-types from 1.1.20 to 1.1.21 ([#72](https://github.com/ghoullier/number-safe-parse/issues/72)) ([bf6ac11](https://github.com/ghoullier/number-safe-parse/commit/bf6ac11ad11455be6c55ad3cd27befa5fa2bd2e4))
+* **deps-dev:** bump bun-types from 1.1.21 to 1.1.22 ([#73](https://github.com/ghoullier/number-safe-parse/issues/73)) ([30f20ff](https://github.com/ghoullier/number-safe-parse/commit/30f20ffe8776717f8111f1212b528009bd830ac7))
+* **deps-dev:** bump bun-types from 1.1.22 to 1.1.23 ([#76](https://github.com/ghoullier/number-safe-parse/issues/76)) ([db35c85](https://github.com/ghoullier/number-safe-parse/commit/db35c858fee94ac0849a2476e7c873dceead6d38))
+* **deps-dev:** bump bun-types from 1.1.23 to 1.1.24 ([#77](https://github.com/ghoullier/number-safe-parse/issues/77)) ([ef0c62d](https://github.com/ghoullier/number-safe-parse/commit/ef0c62d310ba1d03e90d7b5da53ed68a4552ec14))
+* **deps-dev:** bump bun-types from 1.1.24 to 1.1.25 ([#79](https://github.com/ghoullier/number-safe-parse/issues/79)) ([90f8d4f](https://github.com/ghoullier/number-safe-parse/commit/90f8d4fa4e1dfc89cb667e691c93f08f33e02a2f))
+* **deps-dev:** bump bun-types from 1.1.25 to 1.1.26 ([#81](https://github.com/ghoullier/number-safe-parse/issues/81)) ([d73b463](https://github.com/ghoullier/number-safe-parse/commit/d73b463cb5fb83c707ba290e2f62054001b61608))
+* **deps-dev:** bump bun-types from 1.1.26 to 1.1.27 ([#82](https://github.com/ghoullier/number-safe-parse/issues/82)) ([f7132f3](https://github.com/ghoullier/number-safe-parse/commit/f7132f3717523a9e492acff4fe6016d609b3e08a))
+* **deps-dev:** bump bun-types from 1.1.27 to 1.1.28 ([#92](https://github.com/ghoullier/number-safe-parse/issues/92)) ([88b0a06](https://github.com/ghoullier/number-safe-parse/commit/88b0a060275a17b2606eb7332ff469dcf88cddc7))
+* **deps-dev:** bump bun-types from 1.1.28 to 1.1.29 ([#95](https://github.com/ghoullier/number-safe-parse/issues/95)) ([6ad6473](https://github.com/ghoullier/number-safe-parse/commit/6ad6473931656dbc900ff01ca6519825ebe042fe))
+* **deps-dev:** bump publint from 0.2.10 to 0.2.11 ([#90](https://github.com/ghoullier/number-safe-parse/issues/90)) ([03483ee](https://github.com/ghoullier/number-safe-parse/commit/03483ee7d9281fe078f67a4d426e84b44775ce84))
+* **deps-dev:** bump publint from 0.2.8 to 0.2.9 ([#69](https://github.com/ghoullier/number-safe-parse/issues/69)) ([ce2c552](https://github.com/ghoullier/number-safe-parse/commit/ce2c55297d510eecb81f1310b86fd9f463a124cd))
+* **deps-dev:** bump publint from 0.2.9 to 0.2.10 ([#78](https://github.com/ghoullier/number-safe-parse/issues/78)) ([1b1565a](https://github.com/ghoullier/number-safe-parse/commit/1b1565aafc6cdb67550aba3230c93ba30eeadb87))
+* **deps-dev:** bump typescript from 5.5.3 to 5.5.4 ([#71](https://github.com/ghoullier/number-safe-parse/issues/71)) ([c646187](https://github.com/ghoullier/number-safe-parse/commit/c646187cb71611f54e6afb7814ef04767c2fb219))
+* **deps-dev:** bump typescript from 5.5.4 to 5.6.2 ([#87](https://github.com/ghoullier/number-safe-parse/issues/87)) ([9cd0deb](https://github.com/ghoullier/number-safe-parse/commit/9cd0deb86f1190d2e613501e30058892a0bb8587))
+* **deps-dev:** bump typescript from 5.6.2 to 5.6.3 ([#97](https://github.com/ghoullier/number-safe-parse/issues/97)) ([c6007d9](https://github.com/ghoullier/number-safe-parse/commit/c6007d9eb568ddb396124bdaa46425a689d52fc3))
+
 ## [1.1.0](https://github.com/ghoullier/number-safe-parse/compare/v1.0.4...v1.1.0) (2024-07-16)
 
 
