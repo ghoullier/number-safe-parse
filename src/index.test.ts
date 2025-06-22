@@ -1,6 +1,5 @@
-import { numberSafeParse } from "./index";
-
 import { describe, expect, test } from "bun:test";
+import { numberSafeParse } from "./index";
 
 describe("numberSafeParse()", () => {
   test("Return `null` instead of `NaN` on failure (with matching type)", () => {
