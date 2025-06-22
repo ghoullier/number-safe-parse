@@ -8,6 +8,10 @@ describe("numberSafeParse()", () => {
   test('Does not parse things like "42foo" as "42" (vs useing`Number.parseFloat`)', () => {
     expect(numberSafeParse("42foo")).toBe(null);
   });
+  test("Does not parse strings with trailing non-numeric characters", () => {
+    expect(numberSafeParse("123foo")).toBe(null);
+    expect(numberSafeParse("10.5bar")).toBe(null);
+  });
   test("Does not parse whitespace - only strings as `0` (vs using`Number()`)", () => {
     expect(numberSafeParse("     ")).toBe(null);
   });
