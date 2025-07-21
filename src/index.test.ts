@@ -19,5 +19,11 @@ describe("numberSafeParse()", () => {
   test("Only parses token sequences that are *exactly* valid JS numbers", () => {
     expect(numberSafeParse("12345")).toBe(12345);
     expect(numberSafeParse("10.145")).toBe(10.145);
+    expect(numberSafeParse("-10.145")).toBe(-10.145);
+    expect(numberSafeParse("0xFF")).toBe(255);
+    expect(numberSafeParse("0o77")).toBe(63);
+    expect(numberSafeParse("0b11")).toBe(3);
+    expect(numberSafeParse("1e3")).toBe(1000);
+    expect(numberSafeParse("  123  ")).toBe(123);
   });
 });
