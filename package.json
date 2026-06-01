@@ -1,7 +1,7 @@
 {
   "name": "@ghoullier/number-safe-parse",
   "description": "A safer way to parse string to number",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "type": "module",
   "scripts": {
     "build:lib": "bun build --minify --outdir=dist src/index.ts",
